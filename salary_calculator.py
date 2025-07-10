@@ -10,3 +10,4 @@ def cal(pay,hour):
     return salary
          
 print(f"{name}님 총 급여액:{cal(pay,hour):,}")
+print(pay)
