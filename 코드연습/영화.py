@@ -46,7 +46,7 @@ def main():
                 for s in score:
                     total += s
                     avg = total / len(score)
-            print(f'영화:{name} / 평균 평점:{avg}')
+            print(f'영화:{name} / 평균 평점:{avg:.2f}')
         else:
             print(f'등록되지 않은 영화입니다.')
 
@@ -63,5 +63,6 @@ def main():
             show_a()
         elif number == 5:
             break
+        
 if __name__ == "__main__":
     main()
