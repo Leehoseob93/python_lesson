@@ -1,8 +1,3 @@
-#딕셔너리
-
-person={'이름':'이호섭', '나이':'만32세'}
-person['직업'] = 'Engineer'
-
-
-for key, value in person.items():
-    print(f"{key}:{value}")
+result = [x * 2 for x in range(5) if x % 2 == 0]
+#[0, 1, 4, 9, 16]
+print(result)
