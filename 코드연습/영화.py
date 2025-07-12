@@ -50,8 +50,9 @@ def main():
         else:
             print(f'등록되지 않은 영화입니다.')
 
+    show_menu()
+
     while True:
-        show_menu()
         number=int(input('번호를 입력하세요:'))
         if number == 1:
             add_movie()
@@ -63,6 +64,7 @@ def main():
             show_a()
         elif number == 5:
             break
-        
+        show_menu()
+
 if __name__ == "__main__":
     main()
